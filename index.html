@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>장경원의 이럭서</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--    <style>-->
+    <!--        /*가상 selector 구문*/-->
+    <!--        /*::after*/-->
+    <!--        /*  ex) p::after*/-->
+    <!--        /*::before*/-->
+    <!--        /*  ex) p::before*/-->
+    <!--    </style>-->
+
+</head>
+<body>
+<div class="wrapper">
+    <h1>장경원의 이력서</h1>
+
+    <section id="My_info">
+        <h2>MY info</h2>
+        <img src="./image2/mypic.jpg" alt="장경원의 얼굴사진"/>
+        <table>
+            <tbody>
+            <tr id="myname">
+                <th>이름</th>
+                <td>장경원</td>
+            </tr>
+            <tr>
+                <th>직업</th>
+                <td>개발자</td>
+            </tr>
+            <tr>
+                <th>나이</th>
+                <td>28</td>
+            </tr>
+            <tr>
+                <th>거주지</th>
+                <td>부산</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="about_me">
+        <h2>about me</h2>
+        <p>
+            개발자가 되어서 다 패버릴거야
+            구질구질했어 너 없는 동안 나
+            나도 몰랐던 나의 얼굴과
+            삐뚤어짐을 만났어
+            참 힘들게 했어 엄마랑 친구들
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>contact</h2>
+        <ul>
+            <li>
+                <a href="tel:01062069603" id="facebook">010-6206-9603</a>
+                <!--            //하이퍼링크로 전화를 거시겠습니까로 연결-->
+            </li>
+            <li>
+                <a href="https://www.facebook.com/gyeongwon.jang/" target="_blank">facebook</a>
+            </li>
+            <li>
+                <a href="https://instagram.com/k1_jang">instagram</a>
+            </li>
+        </ul>
+
+
+    </section>
+
+    <section id="Skills">
+        <!--    <ol></ol> = 넘버가 있는 리스트-->
+        <!--    <ul></ul> = 넘버가 없는 리스트-->
+        <h2>skills</h2>
+        <ol>
+            <li class="a">HTML</li>
+            <li class="b">CSS</li>
+            <li class="c">Javascript</li>
+        </ol>
+
+    </section>
+
+    <section id="project">
+        <h2>Project</h2>
+        <ol>
+            <li>
+                <h3>나의 버킷리스트 만들어보기</h3>
+                <img src="./image2/bucket.jpg" alt="버킷리스트 만들어보기"/>
+                <a href="http://ky-j.shop/" target="_blank"></a>
+                <div class="wow">
+                    <button class="button" onclick="window.open('http://ky-j.shop/')">
+                        사이트 바로가기
+                    </button>
+                </div>
+                <p></p>
+
+            </li>
+
+            <li>
+                <h3>제작중인 프로젝트</h3>
+                <video controls width="250">
+                    <source src="./image2/향해_뮤직.mp4"
+                            type="video/mp4">
+                </video>
+                <div class="wow">
+                    <button class="button" onclick="window.open('http://ky-j.shop/')">
+                        사이트 바로가기
+                    </button>
+                </div>
+                <a href="http://suadi.shop/" target="_blank">향해 ㄱㄱ</a>
+            </li>
+        </ol>
+
+    </section>
+</div>
+</body>
+</html>
