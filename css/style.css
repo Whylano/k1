@@ -50,6 +50,10 @@ section:first-of-type h2 {
     border-radius: 50px;
     margin-right: 40px;
 }
+.newspaper{
+    column-count: 3;
+    column-gap:40px ;
+}
 
 table {
     display: inline-block;
